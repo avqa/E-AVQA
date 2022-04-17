@@ -10,7 +10,7 @@ Tao-AVQA dataset is different from other datasets since its questions are annota
 
 ### How to ask a question?
 
-Note that the template here is only for the annotator to learn and reference, not mandatory. This is to ensure the diversity of our data. The specific template sentences are displayed as follows.
+Note that the template here is only for the annotator to learn and reference, not mandatory. This is to ensure the diversity of our data. The specific template sentences are displayed as follows. Our template is displayed in English, but Chinese is used in the actual application.
 
 <table class="tg">
 <thead>
@@ -71,10 +71,10 @@ Note that the template here is only for the annotator to learn and reference, no
 </tbody>
 </table>
 
-Our template is displayed in English, but Chinese is used in the actual application.
-
 
 ### What modalities a question needs to be answered?
+
+![图片alt](图片地址 ''图片title'')
 
 
 ### Categories of QA pairs

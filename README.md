@@ -74,7 +74,7 @@ Note that the template here is only for the annotator to learn and reference, no
 
 ### What modalities a question needs to be answered?
 
-![图片alt](图片地址 ''图片title'')
+![](/images/veien_fig.png)
 
 
 ### Categories of QA pairs

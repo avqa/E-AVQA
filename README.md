@@ -5,7 +5,7 @@ This repository contains the question, audio, and visual features we extracted f
 
 ## Statistics of TaoAVQA
 
-Tao-AVQA dataset is different from other datasets since its questions are annotated based on raw audio. Tao-AVQA dataset consists of 34,033 QA pairs collected from 18,786 **e-commerce videos**. We collected our dataset on 12 categories (*e.g.* “sport”, “cosmetic tutorial”, and “quality goods reviews”) from Taobao, the largest e-commerce platform in China. To focus on various aspects of the videos and ensure the diversity of questions, we set QA pairs into four categories (*i.e.* Object, Action, Event, and Plot). The ratio of these four categories satisfies 3:2:1:2. 
+Tao-AVQA dataset is different from other datasets since its questions are annotated based on raw audio. Tao-AVQA dataset consists of 34,033 QA pairs collected from 18,786 **e-commerce videos**. We collected our dataset on 12 categories (*e.g.* “sport”, “cosmetic tutorial”, and “quality goods reviews”) from Taobao, the largest e-commerce platform in China.
 
 
 ### How to ask a question?
@@ -71,22 +71,40 @@ Note that the template here is only for the annotator to learn and reference, no
 </tbody>
 </table>
 
+-------------------
 
 ### What modalities a question needs to be answered?
 
 <!-- ![](/images/veien_fig.png) -->
 <img src="/images/veien_fig.png" alt="drawing" width="400"/>
 
+Our dataset is challenging, as 11.32% of the data requires a combination of audio-visual cues to arrive at the correct answers. In addition, 20% of the data can use audio information, including speech and surrounding sound.
+
+-------------------
 
 ### Categories of QA pairs
 
+<img src="/images/catg.png" alt="drawing" width="400"/>
+
+To focus on various aspects of the videos and ensure the diversity of questions, we set QA pairs into four categories (*i.e.* Object, Action, Event, and Plot). The ratio of these four categories satisfies 3:2:1:2. 
+
+-------------------
 
 ### Word clouds
 
+![Word cloud for question texts](/images/fig_qwords.png)
+
+![Word cloud for answer texts](/images/fig_awords.png)
+
+-------------------
 
 ### Quality Examples
 
+<img src="/images/qe.png" alt="drawing" width="400"/>
 
+The red words only can be generated leveraging audio content. The blue words can be obtained by visual or audio information. Words in green indicate poor performance. Case (a), (b) and (c) are quality instances for the AVQA task. Case (d) displays our unique words in e-commerce scenarios.
+
+-------------------
 
 ## TaoAVQA Dataset
 

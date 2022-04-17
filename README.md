@@ -71,7 +71,6 @@ Note that the template here is only for the annotator to learn and reference, no
 </tbody>
 </table>
 
--------------------
 
 ### What modalities a question needs to be answered?
 
@@ -80,23 +79,35 @@ Note that the template here is only for the annotator to learn and reference, no
 
 Our dataset is challenging, as 11.32% of the data requires a combination of audio-visual cues to arrive at the correct answers. In addition, 20% of the data can use audio information, including speech and surrounding sound.
 
--------------------
 
 ### Categories of QA pairs
 
-<img src="/images/catg.png" alt="drawing" width="400"/>
+<img src="/images/catg.png" alt="drawing" width="600"/>
 
 To focus on various aspects of the videos and ensure the diversity of questions, we set QA pairs into four categories (*i.e.* Object, Action, Event, and Plot). The ratio of these four categories satisfies 3:2:1:2. 
 
--------------------
 
 ### Word clouds
 
+<table>
+  <thead>
+    <tr>
+      <th><img src="/images/fig_qwords.png" alt="drawing" width="600"/><\th>
+      <th><img src="/images/fig_awords.png" alt="drawing" width="600"/><\th>
+    <\tr>
+  <\thead>
+  <tbody>
+    <tr>
+      <td>Word cloud for question texts<\td>
+      <td>Word cloud for answer texts<\td>
+    <\tr>
+  <\tbody>
+</table>
+<!-- 
 ![Word cloud for question texts](/images/fig_qwords.png)
 
-![Word cloud for answer texts](/images/fig_awords.png)
+![Word cloud for answer texts](/images/fig_awords.png) -->
 
--------------------
 
 ### Quality Examples
 
@@ -104,7 +115,6 @@ To focus on various aspects of the videos and ensure the diversity of questions,
 
 The red words only can be generated leveraging audio content. The blue words can be obtained by visual or audio information. Words in green indicate poor performance. Case (a), (b) and (c) are quality instances for the AVQA task. Case (d) displays our unique words in e-commerce scenarios.
 
--------------------
 
 ## TaoAVQA Dataset
 

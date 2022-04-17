@@ -107,7 +107,7 @@ To focus on various aspects of the videos and ensure the diversity of questions,
 
 ### Quality Examples
 
-<img src="/images/qe.png" alt="drawing" width="400"/>
+<img src="/images/category.jpg" alt="drawing" width="800"/>
 
 The red words only can be generated leveraging audio content. The blue words can be obtained by visual or audio information. Words in green indicate poor performance. Case (a), (b) and (c) are quality instances for the AVQA task. Case (d) displays our unique words in e-commerce scenarios.
 

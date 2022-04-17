@@ -1,19 +1,13 @@
 # TaoAVQA
 
-This is
+This repository contains the question, audio, and visual features we extracted for TaoAVQA dataset in the paper *Multi-Granularity Relational Attention Network with Contrastive Constraints for Tao-AVQA*
 
 
-<!--
-**anonymous20222202/anonymous20222202** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## TaoAVQA Dataset
 
-Here are some ideas to get you started:
+The question, audio, and visual features are available for download through the following links:
++ [TaoAVQA_bert_768.tar.gz](http://taocaption.oss-cn-hangzhou.aliyuncs.com/TaoAVQA/TaoAVQA_bert.tar.gz)
++ [TaoAVQA_i3d_2048.tar.gz](http://taocaption.oss-cn-hangzhou.aliyuncs.com/TaoAVQA/TaoAVQA_i3d.tar.gz)
++ [TaoAVQA_xlsr_512.tar.gz](http://taocaption.oss-cn-hangzhou.aliyuncs.com/TaoAVQA/TaoAVQA_xlsr.tar.gz)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+

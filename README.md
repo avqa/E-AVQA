@@ -92,16 +92,16 @@ To focus on various aspects of the videos and ensure the diversity of questions,
 <table>
   <thead>
     <tr>
-      <th><img src="/images/fig_qwords.png" alt="drawing" width="600"/><\th>
-      <th><img src="/images/fig_awords.png" alt="drawing" width="600"/><\th>
-    <\tr>
-  <\thead>
+      <th><img src="/images/fig_qwords.png" alt="drawing" width="600"/></th>
+      <th><img src="/images/fig_awords.png" alt="drawing" width="600"/></th>
+    </tr>
+  </thead>
   <tbody>
     <tr>
-      <td>Word cloud for question texts<\td>
-      <td>Word cloud for answer texts<\td>
-    <\tr>
-  <\tbody>
+      <td>Word cloud for question texts</td>
+      <td>Word cloud for answer texts</td>
+    </tr>
+  </tbody>
 </table>
 <!-- 
 ![Word cloud for question texts](/images/fig_qwords.png)

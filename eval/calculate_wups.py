@@ -1,9 +1,7 @@
 import numpy as np
-
 from nltk.corpus import wordnet as wn
 
 word_pair_dict = {}
-
 
 def acc_measure(a, b):
     return float(a == b)

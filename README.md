@@ -103,10 +103,6 @@ To focus on various aspects of the videos and ensure the diversity of questions,
     </tr>
   </tbody>
 </table>
-<!-- 
-![Word cloud for question texts](/images/fig_qwords.png)
-
-![Word cloud for answer texts](/images/fig_awords.png) -->
 
 
 ### Quality Examples

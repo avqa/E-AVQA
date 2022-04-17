@@ -9,7 +9,6 @@ def acc_measure(a, b):
     return float(a == b)
 
 
-# input: '狗' '猫'
 def wups_word(pred, gt, similarity_threshold=0.0):
     if pred == gt:
         return 1.0
@@ -21,11 +20,7 @@ def wups_word(pred, gt, similarity_threshold=0.0):
     def get_semantic_field(word):
         return wn.synsets(word, lang='cmn')
 
-    # print(gt, "***", pred)
-    if gt == '纪念日':
-        gt = '日'
-    if pred == '纪念日':
-        pred = '日'
+    
     semantic_pred = get_semantic_field(pred)
     semantic_gt = get_semantic_field(gt)
     # print('{}: {}'.format(pred, semantic_pred))
@@ -34,7 +29,6 @@ def wups_word(pred, gt, similarity_threshold=0.0):
     if semantic_pred == [] or semantic_gt == []:
         return 0.0
 
-    # a的所有同义词和b的所有同义词遍历计算相似度，选择最大值
     global_max = 0
     for par_pred in semantic_pred:
         for par_gt in semantic_gt:
@@ -54,12 +48,7 @@ def wups_word(pred, gt, similarity_threshold=0.0):
     return word_final_score
 
 
-# input: '车 狗' '船 飞机'
 def wups_wordset(pred, gt, threshold=0.0):
-    # print(".........")
-    # print(gt)
-    # print("--------")
-    # print(pred)
     gt_words = gt.split()
     pred_words = pred.split()
 
@@ -85,14 +74,11 @@ def wups_wordset(pred, gt, threshold=0.0):
         # print('max_word_score: {}'.format(max_word_score))
         gt_pred_score *= max_word_score
 
-    # print(pred_gt_score)
-    # print(gt_pred_score)
     answer_wups = min(pred_gt_score, gt_pred_score)
 
     return answer_wups
 
 
-# input: (18000, ) ['我 是', '', ...]
 def cal_wups(input_pred, input_gt, thresh):
     global word_pair_dict
     word_pair_dict = {}

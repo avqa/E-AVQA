@@ -10,15 +10,8 @@ Tao-AVQA dataset is different from other datasets since its questions are annota
 
 ### How to ask a question?
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-</style>
+Note that the template here is only for the annotator to learn and reference, not mandatory. This is to ensure the diversity of our data. The specific template sentences are displayed as follows.
+
 <table class="tg">
 <thead>
   <tr>
@@ -77,6 +70,8 @@ Tao-AVQA dataset is different from other datasets since its questions are annota
   </tr>
 </tbody>
 </table>
+
+Our template is displayed in English, but Chinese is used in the actual application.
 
 
 ### What modalities a question needs to be answered?

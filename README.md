@@ -75,7 +75,7 @@ Note that the template here is only for the annotator to learn and reference, no
 ### What modalities a question needs to be answered?
 
 <!-- ![](/images/veien_fig.png) -->
-<img src="/images/veien_fig.png" alt="drawing" width="100"/>
+<img src="/images/veien_fig.png" alt="drawing" width="1000"/>
 
 
 ### Categories of QA pairs

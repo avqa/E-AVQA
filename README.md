@@ -3,7 +3,7 @@
 This repository contains the question, audio, and visual features we extracted for **E-AVQA** dataset in the paper *Multi-Granularity Relational Attention Network for Audio-Visual Question Answering*.
 
 
-## Statistics of TaoAVQA
+## Statistics of E-AVQA
 
 E-AVQA dataset is different from other datasets since its questions are annotated based on raw audio. E-AVQA dataset consists of 34,033 QA pairs collected from 18,786 **e-commerce videos**. We collected our dataset on 12 categories (*e.g.* “sport”, “cosmetic tutorial”, and “quality goods reviews”) from Taobao, the largest e-commerce platform in China.
 

@@ -1,11 +1,11 @@
-# TaoAVQA
+# E-AVQA
 
-This repository contains the question, audio, and visual features we extracted for **TaoAVQA** dataset in the paper *Multi-Granularity Relational Attention Network with Contrastive Constraints for Tao-AVQA*.
+This repository contains the question, audio, and visual features we extracted for **E-AVQA** dataset in the paper *Multi-Granularity Relational Attention Network for Audio-Visual Question Answering*.
 
 
 ## Statistics of TaoAVQA
 
-Tao-AVQA dataset is different from other datasets since its questions are annotated based on raw audio. Tao-AVQA dataset consists of 34,033 QA pairs collected from 18,786 **e-commerce videos**. We collected our dataset on 12 categories (*e.g.* “sport”, “cosmetic tutorial”, and “quality goods reviews”) from Taobao, the largest e-commerce platform in China.
+E-AVQA dataset is different from other datasets since its questions are annotated based on raw audio. E-AVQA dataset consists of 34,033 QA pairs collected from 18,786 **e-commerce videos**. We collected our dataset on 12 categories (*e.g.* “sport”, “cosmetic tutorial”, and “quality goods reviews”) from Taobao, the largest e-commerce platform in China.
 
 
 ### How to ask a question?
@@ -72,14 +72,6 @@ Note that the template here is only for the annotator to learn and reference, no
 </table>
 
 
-### What modalities a question needs to be answered?
-
-<!-- ![](/images/veien_fig.png) -->
-<img src="/images/en.png" alt="drawing" width="400"/>
-
-Our dataset is challenging, as 11.32% of the data requires a combination of audio-visual cues to arrive at the correct answers. In addition, 20% of the data can use audio information, including speech and surrounding sound.
-
-
 ### Categories of QA pairs
 
 <img src="/images/cate2.png" alt="drawing" width="300"/>
@@ -112,9 +104,9 @@ To focus on various aspects of the videos and ensure the diversity of questions,
 The red words only can be generated leveraging audio content. The blue words can be obtained by visual or audio information. Words in green indicate poor performance. Case (a), (b) and (c) are quality instances for the AVQA task. Case (d) displays our unique words in e-commerce scenarios.
 
 
-## TaoAVQA Dataset
+## E-AVQA Dataset
 
 The question, audio, and visual features are available for download through the following links:
-+ [TaoAVQA_bert_768.tar.gz](http://taocaption.oss-cn-hangzhou.aliyuncs.com/TaoAVQA/TaoAVQA_bert.tar.gz)
-+ [TaoAVQA_i3d_2048.tar.gz](http://taocaption.oss-cn-hangzhou.aliyuncs.com/TaoAVQA/TaoAVQA_i3d.tar.gz)
-+ [TaoAVQA_xlsr_512.tar.gz](http://taocaption.oss-cn-hangzhou.aliyuncs.com/TaoAVQA/TaoAVQA_xlsr.tar.gz)
++ [E-AVQA_bert_768.tar.gz](http://taocaption.oss-cn-hangzhou.aliyuncs.com/TaoAVQA/TaoAVQA_bert.tar.gz)
++ [E-AVQA_i3d_2048.tar.gz](http://taocaption.oss-cn-hangzhou.aliyuncs.com/TaoAVQA/TaoAVQA_i3d.tar.gz)
++ [E-AVQA_xlsr_512.tar.gz](http://taocaption.oss-cn-hangzhou.aliyuncs.com/TaoAVQA/TaoAVQA_xlsr.tar.gz)
